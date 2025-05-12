@@ -2,6 +2,6 @@ if (not game:IsLoaded()) then game.Loaded:Wait() end
 
 
 
-if Trick.StartUP.Version == 'V1.2' then
+if Trick.StartUP.Version == 'V1.3' then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/vLightwork/Private/refs/heads/main/V1.2'))()
 end
