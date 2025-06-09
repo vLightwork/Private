@@ -1,5 +1,11 @@
 if (not game:IsLoaded()) then game.Loaded:Wait() end
 
-if Trick.StartUP.Version == 'V1.5' then
+if Valve_LOADED_TRUE then
+    return
+end
+
+pcall(function() Valve_LOADED_TRUE = true end)
+
+if Valve.StartUP.Version == 'V1.6' then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/vLightwork/Private/refs/heads/main/V1'))()
 end
