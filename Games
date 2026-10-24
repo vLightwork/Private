@@ -30,3 +30,15 @@ local GameList = {
         BodyEffects = 'K.O'
     }
 }
+
+local DaHood = {
+    [2788229376] =  {
+        Name = 'Da Hood'
+    };
+    [7213786345] =  {
+        Name = 'Da Hood VC'
+    };
+    [16033173781] = {
+        Name = 'Da Hood Macro'
+    }
+}
