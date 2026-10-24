@@ -1,11 +1,8 @@
 if (not game:IsLoaded()) then game.Loaded:Wait() end
 
-if Valve_LOADED_TRUE then
-    return
-end
+local GameList = loadstring(game:HttpGet(""))()
 
-pcall(function() Valve_LOADED_TRUE = true end)
 
-if Valve.StartUP.Version == 'V1.6' then
+if GameList[game.PlaceId] then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/vLightwork/Private/refs/heads/main/V1'))()
 end
